@@ -55,10 +55,10 @@ Training (after much experimentation) used the following hyperparameters:
 - Soft update interpoloation (TAU) - **1e-3**
 - Learning rate of the actor - **1e-4**
 - Learning rate of the critic - **1e-3**
-- Number of episodes played - **500**
+- Number of episodes played - **2500**
 - Max time (number of steps) per episode - **Until done** 
 
-The following plot shows the score achieved during training; demonstrating the agents were able to meet the 0.5 average score goal after roughly 1100 episodes.
+The following plot shows the score achieved during training; demonstrating the agents were able to meet the 0.5 average score goal after roughly 1300 episodes.
 
 <img src="images/plot_training.png" width="500px">
 
